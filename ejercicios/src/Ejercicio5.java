@@ -1,8 +1,8 @@
 public class Ejercicio5 {
     public static void main (String[] args){
-        String nombre = "Valorant";
+        final String nombre = "Valorant";
         System.out.println("Videojuego: "+nombre);
-        double version = 13.06;
+       final double version = 13.06;
         System.out.println("Versión: "+version);
         double valor = 3.14159;
         System.out.println("Valor de PI: "+valor);
